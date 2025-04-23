@@ -30,8 +30,8 @@ var htmlCode = ""; //declaring a variable that will link to the html page
 
 for (i=0; i < captions.length; i++) { //for loop counter that will shuffle through the images and grab each property required(caption, image)
       htmlCode += "<figure>"
-      htmlCode += "<img alt='' src ='slide1.jpg'/>"
-      htmlCode += "<figcaption>captions[i]</figcaption>"
+      htmlCode += "<img alt='' src ='slide"+i+".jpg'/>"
+      htmlCode += "<figcaption> "+captions[i]+"</figcaption>"
       htmlCode += "</figure>" 
 }
 
